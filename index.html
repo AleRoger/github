@@ -7,7 +7,69 @@
 <body>
 	<section>
 		<h1>O que é Git e Github</h1>
-		<p></p>
+		<ul>
+			<li>Comandos</li>
+			<li></li>
+		</ul>
+	</section>
+	<section class="comandos">
+		<h2>Lista dos principais comandos</h2>
+		<ul>
+			<li><a href="#log">Log</a></li>
+			<li><a href="#diff">Diff</a></li>
+			<li><a href="#status"></a>Status</li>
+			<li><a href="#clone">Clone</a></li>
+			<li><a href="#push">Push</a></li>
+		</ul>
+	</section>
+
+	<section class="corp-comandos">
+		<h2 id="#log">Comando Log</h2>
+		<p>
+			Por padrão, sem argumentos, git log lista os commits feitos naquele repositório em ordem cronológica reversa. Isto é, os <br> commits mais recentes primeiro. <br><br>
+Um grande número e variedade de opções para o comando git log estão disponíveis para mostrá-lo exatamente o que você quer ver. Aqui, <br> nós mostraremos algumas das opções mais usadas.<br><br>
+
+Uma das opções mais úteis é -p, que mostra o diff introduzido em cada commit. Você pode ainda usar -2, que limita a saída somente às <br> duas últimas entradas.<br><br>
+			<a href="https://git-scm.com/book/pt-br/v1/Git-Essencial-Visualizando-o-Hist%C3%B3rico-de-Commits">Fonte de Estudo</a>
+		</p>		
+	</section>
+	<section class="corp-comandos">
+		<h2 id="#diff">Comando Diff</h2>
+		<p>Comando Diff serve para comparar alterações em arquivos.
+			<a href="https://git-scm.com/book/pt-br/v1/Git-Essencial-Gravando-Altera%C3%A7%C3%B5es-no-Reposit%C3%B3rio">Fonte de Estudo</a>
+		</p>
+
+	</section>
+	<section class="corp-comandos">
+		<h2 id="#status">Comando Status</h2>
+		<p>A principal ferramenta utilizada para determinar quais arquivos estão em quais estados é o comando git status.<br>
+			Para ver o que você alterou mas ainda não selecionou, digite o comando git diff sem nenhum argumento:<br>
+			Este comando compara o que está no seu diretório de trabalho com o que está na sua área de seleção (staging).<br>
+			O resultado te mostra as mudanças que você fez que ainda não foram selecionadas.<br>
+			Se você quer ver o que selecionou que irá no seu próximo commit, pode utilizar git diff --cached.<br> (Nas versões do Git 1.6.1 e superiores, você também pode utilizar git diff --staged, que deve ser mais fácil de lembrar.) <br> 
+			Este comando compara as mudanças selecionadas com o seu último commit:<br>
+
+			<a href="https://git-scm.com/book/pt-br/v1/Git-Essencial-Gravando-Altera%C3%A7%C3%B5es-no-Reposit%C3%B3rio">Fonte de Estudo</a>
+		</p>		
+	</section>
+
+	<section class="corp-comandos">
+		<h2 id="#clone">Comando Clone</h2>
+		<p>Este comando clona arquivos do servidor
+			
+		</p>		
+	</section>
+
+	<section class="corp-comandos">
+		<h2 id="#push">Comando Push</h2>
+		<p>O comando push é utilizado para fazer a sincronização com o servidor no caso sua conta no Github.<br>
+			Para utizar é preciso uma conta no site do Github https://github.com acesse o site e faça sua conta.<br>
+			Crie um Repositório com o nome igual ao do seu projeto local e crie com ele o arquivo README para que já seja feita a inicialização do HEAD no Git.
+
+		</p>
+		<h3>Fonte de Estudo</h3>
+			<p><a href="https://www.youtube.com/watch?v=Ejq2tKv1G74">Video Esplicativo</a></p>
+
 	</section>
 </body>
 </html>
